@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroBackground from "@/assets/hero-bg.jpg";
+import myResume from "@/assets/Dhruv_resume.pdf";
 
 const HeroSection = () => {
   return (
@@ -59,6 +60,7 @@ const HeroSection = () => {
           >
             View My Work
           </Button>
+          <a href={myResume} download>
           <Button 
             variant="outline" 
             size="lg" 
@@ -66,6 +68,7 @@ const HeroSection = () => {
           >
             Download Resume
           </Button>
+          </a>
         </div>
       </div>
 

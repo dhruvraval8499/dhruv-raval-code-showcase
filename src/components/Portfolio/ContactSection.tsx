@@ -26,24 +26,24 @@ const ContactSection = () => {
   };
 
   const socialLinks = [
-    { 
-      icon: Github, 
-      label: "GitHub", 
-      href: "https://github.com/dhruv", 
-      color: "hover:text-foreground" 
-    },
+    // { 
+    //   icon: Github, 
+    //   label: "GitHub", 
+    //   href: "https://github.com/dhruv", 
+    //   color: "hover:text-foreground" 
+    // },
     { 
       icon: Linkedin, 
       label: "LinkedIn", 
-      href: "https://linkedin.com/in/dhruv-raval", 
+      href: "https://www.linkedin.com/in/dhruv-raval-034b161b6/", 
       color: "hover:text-primary" 
     },
-    { 
-      icon: Twitter, 
-      label: "Twitter", 
-      href: "https://twitter.com/dhruv", 
-      color: "hover:text-accent" 
-    }
+    // { 
+    //   icon: Twitter, 
+    //   label: "Twitter", 
+    //   href: "https://twitter.com/dhruv", 
+    //   color: "hover:text-accent" 
+    // }
   ];
 
   return (

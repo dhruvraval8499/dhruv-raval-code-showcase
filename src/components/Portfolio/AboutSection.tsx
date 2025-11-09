@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import profileImage from "@/assets/profile.jpg";
+import profileImage from "@/assets/pro pic.png";
 import { MapPin, Mail, Phone } from "lucide-react";
 
 const AboutSection = () => {
